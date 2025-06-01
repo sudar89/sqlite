@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.10.0)
-project(sqlite VERSION 0.1.0 LANGUAGES C)
+project(sqlite VERSION 0.1.0 LANGUAGES C CXX)
 
-add_executable(sqlite main.c)
+add_executable(sqlite main.cpp)
+
